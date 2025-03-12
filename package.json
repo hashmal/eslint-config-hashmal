@@ -1,6 +1,6 @@
 {
   "name": "@hashmal/eslint-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "My personal go-to ESLint config",
   "type": "module",
   "main": "index.js",
