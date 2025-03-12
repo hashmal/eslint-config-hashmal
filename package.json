@@ -1,0 +1,16 @@
+{
+  "name": "@hashmal/eslint-config",
+  "version": "0.0.0",
+  "description": "My personal go-to ESLint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hashmal/eslint-config-hashmal.git"
+  },
+  "author": "Jérémy Pinat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hashmal/eslint-config-hashmal/issues"
+  },
+  "homepage": "https://github.com/hashmal/eslint-config-hashmal#readme"
+}
