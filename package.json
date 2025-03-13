@@ -15,6 +15,7 @@
   },
   "homepage": "https://github.com/hashmal/eslint-config-hashmal#readme",
   "scripts": {
+    "yalc": "yalc publish --store-folder /yalc",
     "postversion": "git push --follow-tags"
   },
   "peerDependencies": {
@@ -24,5 +25,8 @@
     "eslint-plugin-vue": "^9.31.0",
     "globals": ">=16.0.0",
     "typescript-eslint": ">=8.26.1"
+  },
+  "devDependencies": {
+    "yalc": "^1.0.0-pre.53"
   }
 }
