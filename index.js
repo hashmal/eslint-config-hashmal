@@ -1,17 +1,14 @@
-import js from '@eslint/js'
-import { FlatCompat } from '@eslint/eslintrc'
+import pluginJs from '@eslint/js'
 import tseslint from 'typescript-eslint'
 import StylisticPlugin from '@stylistic/eslint-plugin'
 import pluginVue from 'eslint-plugin-vue'
 import globals from 'globals'
 
-const compat = new FlatCompat({ recommendedConfig: js.configs.recommended })
-
 /** @type {import('eslint').Linter.Config[]} */
 export default [
-  ...compat.extends('eslint:recommended', 'plugin:@typescript-eslint/recommended'),
+  { files: ['**/*.{js,mjs,cjs,ts}'] },
   { languageOptions: { globals: globals.browser } },
-  js.configs.recommended,
+  pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
 
   // Vue
